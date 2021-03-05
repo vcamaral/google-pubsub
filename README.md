@@ -20,3 +20,7 @@ python app.py
 export GOOGLE_APPLICATION_CREDENTIALS=credentials.json
 python publisher.py
 ```
+
+## Testando
+
+![](https://github.com/vcamaral/google-pubsub/blob/main/images/test.png)
