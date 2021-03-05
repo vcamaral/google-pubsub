@@ -13,7 +13,7 @@ def webhook():
     data = base64.b64decode(req["message"]["data"]).decode("utf-8")
     print(f"Decoded data: {data}")
 
-    return "", 200
+    return "", 202
 
 
 app.run()
