@@ -1,6 +1,6 @@
 # google-pubsub
 
-## Instalando dependências
+## Setup
 
 ```
 python3 -m venv venv
@@ -8,19 +8,21 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Executando a API
+## Utilização
+
+### API
 
 ```
 python app.py
 ```
 
-## Executando o publisher
+### Publisher
 
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=credentials.json
 python publisher.py
 ```
 
-## Testando
+## Demonstração
 
 ![](https://github.com/vcamaral/google-pubsub/blob/main/images/test.png)
